@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.Greeting, .about-me, .skillset, .social-media {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.skillset {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.software-skills-main-div .dev-icons .software-skill-inline {
+  display: inline-block;
+  margin: 10px;
+}
+
+.software-skills-main-div .dev-icons .software-skill-inline i {
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin: 10px;
+
+}
+
+.social-media h2 {
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media a {
+  margin: 0 10px;
+  font-size: 2rem;
+}
+
+.picture img {
+  max-width: 100%;
+  height: auto;
+}
+
+.software-skills-main-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dev-icons {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.software-skill-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  text-align: center;
+}
+
+.software-skill-inline i {
+  margin-bottom: 10px;
+}
+
+.software-skill-inline p {
+  margin-top: 10px;
+}
